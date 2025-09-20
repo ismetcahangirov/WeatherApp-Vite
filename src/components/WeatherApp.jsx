@@ -18,7 +18,7 @@ const WeatherApp = () => {
 
   return (
     <div className="relative w-full min-h-screen text-white">
-      <div className="z-10 h-full flex flex-col gap-5 justify-center items-center px-2 py-5">
+      <div className="z-10 h-full flex flex-col gap-5 justify-center items-center px-4 py-5">
         {current.data && (
           <div className="absolute inset-0 -z-10 h-full">
             <BgVideo main={current.data.weather[0].main} />
