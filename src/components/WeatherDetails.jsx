@@ -30,7 +30,9 @@ const WeatherDetails = ({ infos }) => {
         <h2 className="text-3xl font-bold">
           {infos.name} / {infos.sys.country}
         </h2>
-        <p className="text-sm text-white/70 mt-1">{weather.description}</p>
+        <p className="text-sm text-white/70 mt-1 first-letter:uppercase">
+          {weather.description}
+        </p>
       </div>
 
       <div className="flex justify-center items-center gap-6 mb-6">
